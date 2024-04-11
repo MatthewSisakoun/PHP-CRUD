@@ -37,9 +37,7 @@
         if (isset($pdo)) {
           $sql = "SELECT * FROM `eleve`";
           $statement = $pdo->query($sql);
-          $count = 0;
           while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-            $count++;
             echo "<tr>";
             echo "<th scope='row'>" . $row['Id'] . "</th>";
             echo "<td>" . $row['Prenom'] . "</td>";
