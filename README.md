@@ -5,5 +5,5 @@
 - lancer xampp et démarrer apache et mysql
 - ouvrir dans son navigateur localhost/phpmyadmin
 - créer la base de données en copiant le contenu de 'createdb.sql'
-- ouvrir dans son navigateur localhost/crud/display.php
+- ouvrir dans son navigateur localhost/PHP-CRUD/display.php
 - tout est là, amusez-vous bien !
