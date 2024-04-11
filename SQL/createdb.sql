@@ -11,9 +11,6 @@ CREATE TABLE eleve (
   `Sexe` TINYINT NOT NULL DEFAULT 3,	-- 1 Homme 2 Femme 3 Other
   `Email` VARCHAR(255) NOT NULL,
   `Telephone` VARCHAR(20) NULL,
-  `Adresse` VARCHAR(200) NULL,
-  `CodePostal` NUMERIC(5,0) UNSIGNED NULL,
-  `Ville` VARCHAR(100) NULL,
   `Passwd` VARCHAR(255) NOT NULL,
    CONSTRAINT UC_EMAIL UNIQUE (`Email`)
   );
